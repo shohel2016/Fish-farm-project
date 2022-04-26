@@ -1,0 +1,138 @@
+*{margin:0;padding: 0;}
+body{
+ 
+}
+#sticky{
+    position: sticky;
+    top:0;
+    z-index: 9999;
+}
+#header{
+    background-color: #167596;;
+	padding: 10px;
+	border-right: 2px solid #ffffff;
+	border-left: 2px solid #ffffff;
+    text-align: center;
+  
+}
+.header_bg{
+    background-color: #167596;
+    top:0;
+    
+}
+#header h2{
+    color: rgb(255, 255, 255);
+}
+#header p{
+    color:black;
+}
+.nav_bg{
+    background-color: #0d2936;
+    border-bottom:5px solid #5ca3c3;
+}
+
+#nav{
+    background-color: #0d2936;
+    height:38px;
+    z-index: 999;
+    border-right: 2px solid #ffffff;
+	border-left: 2px solid #ffffff;
+
+
+}
+#nav ul{
+    background-color: #0d2936;
+    list-style-type: none;
+  
+   
+   
+}
+#nav ul li a:hover {
+	background-color: #2b7cb3;
+    
+
+}
+#nav ul li:last-child{
+    border: none;
+}
+#nav ul li{
+    float: left;
+    border-right: 1px solid #5ca3c3;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding:10px 45px;
+}
+.section_bg{
+    background-color: black;
+    border-bottom: 5px solid white;
+    display: block;
+}
+#slider_wrapper{
+    width: 956px;
+    height: 430px;
+    overflow:hidden;
+    border-right: 2px solid #ffffff;
+	border-left: 2px solid #ffffff;
+
+}
+#footer{
+    background-color: gold;
+    padding: 10px;
+    text-align: center;
+}
+.wrap{
+	width: 960px;
+	display: block;
+	margin: 0 auto;
+}
+#social_area{
+    list-style-type: none;
+    position:absolute;
+    padding: 10px;
+    width: 300px;
+    right:20%;
+    top:1%;
+}
+#social_area li{
+    display: inline;
+}
+#social_area li img{
+    width: 32px;
+    height: 32px;
+    padding-inline-end: 1%;
+}
+.logo_main{
+    width: 240px;
+    height: 38px;
+
+}
+.social_s{
+    list-style-type: none;
+    width: 300px;
+    position:absolute;
+    left:1%;
+    bottom:50%;
+}
+.social_s li img{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+
+.about_us h1{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    padding: 50px;
+    border-bottom: 2px solid #5ca3c3;
+}
+.costomer_logo img{
+    width: 150px;
+    height: 160px;
+    padding: 3px;
+   margin-right: 50px;
+}
